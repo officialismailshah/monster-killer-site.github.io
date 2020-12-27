@@ -66,7 +66,6 @@ function writeToLog(ev, value, playerHealth, monsterHealth) {
 }
 
 function reset() {
-    alert('reset');
     currentMonsterLife = chooseMaxLife;
     currentPlayerLife = chooseMaxLife;
     resetGame(chooseMaxLife);
